@@ -142,17 +142,13 @@ footer {
 
 /* flexible image rules start here */
 
-img.flexible{
+.flexible img{
     width:100%;
 }
 
-.center-img{
-    margin: auto;
-    width:100%;
-}
-
-.center-img img{
-    text-align:center;
+.flexible{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Responsive rules */
